@@ -27,7 +27,41 @@
                     <div class="logo">
                         <img src="images/logo.svg" alt="logo">
                     </div>
-                    <div class="nav">
+                    <div class="desktop">
+                            <div class="nav-flex">
+                                <ul class="nav-flex">
+                                    <li>Products <button class="nav-extend" id="nav-extend1" onclick="expand1()"><img src="images/icon-arrow-dark.svg" alt=""></button>
+                                    <ul class="products-extend" id="products-extend">
+                                        <li>Overview</li>
+                                        <li>Pricing</li>
+                                        <li>Marketplace</li>
+                                        <li>Features</li>
+                                        <li>Integrations</li>
+                                    </ul>
+                                </li>
+                                    <li>Company <button class="nav-extend" id="nav-extend2" onclick="expand2()"><img src="images/icon-arrow-dark.svg" alt=""></button>
+                                        <ul class="company-extend" id="company-extend">
+                                            <li>About</li>
+                                            <li>Team</li>
+                                            <li>Blog</li>
+                                            <li>Careers</li>
+                                        </ul>
+                                    </li>
+                                    <li>Connect <button class="nav-extend" id="nav-extend3" onclick="expand3()"><img src="images/icon-arrow-dark.svg" alt=""></button>
+                                        <ul class="connect-extend" id="connect-extend">
+                                            <li>Connect</li>
+                                            <li>Newsletter</li>
+                                            <li>LinkedIn</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <ul class="nav-flex">
+                                    <li>Login</li>
+                                    <button class="signup"><li>Sign Up</li></button>
+                                </ul>
+                            </div>
+                    </div>
+                    <div class="nav mobile">
                         <button id="ham" onclick="toggle()"><img src="images/icon-hamburger.svg"
                                 alt="hamburger"></button>
                         <div class="primary-nav" id="primary-nav">
@@ -84,7 +118,8 @@
         <h2>Designed for the future</h2>
         <div class="sec2-content">
             <div class="sec2-img">
-                <img src="images/illustration-editor-mobile.svg" alt="">
+                <img src="images/illustration-editor-mobile.svg" alt="" class="mobile">
+                <img src="images/illustration-editor-desktop.svg" alt="" class="desktop">
             </div>
             <div class="sec2-text">
                 <h3>Introducing an extensible editor</h3>
@@ -105,7 +140,7 @@
         </div>
     </section>
     <section class="art ">
-        <img src="images/illustration-phones.svg" alt="phone">
+        <div class="sec3-img"><img src="images/illustration-phones.svg" alt="phone"></div>
         <div class="sec3-text ">
             <h2 class="container">State of the Art Infrastructure</h2>
             <p class="container">With readbility and speed in mind, worldwide data centers provide the backbone for ultra-fast
@@ -114,7 +149,10 @@
         </div>
     </section>
     <section class="free-open container">
-        <img src="images/illustration-laptop-mobile.svg" alt="">
+        <div class="sec4-img">
+            <img src="images/illustration-laptop-mobile.svg" alt="" class="mobile">
+            <img src="images/illustration-laptop-desktop.svg" alt="laptop" class="desktop">
+        </div>
         <div class="sec4-text">
             <h2>Free, open, simple</h2>
             <p>Blogr is a free and open source application backed by a large community of helpful developers. It
@@ -129,7 +167,7 @@
         </div>
     </section>
     <footer class="footer">
-        <img src="images/logo.svg" alt="logo">
+        <div class="footer-img"><img src="images/logo.svg" alt="logo"></div>
         <div class="footer-text">
             <ul>
                 <li>Products

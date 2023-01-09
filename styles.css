@@ -91,6 +91,10 @@ img {
     border: none;
 }
 
+.desktop{
+    display: none;
+}
+
 
 .primary-nav {
     background-color: #fff;
@@ -170,10 +174,101 @@ h3 {
     margin-top: 2em;
 }
 
-.footer>img {
+.footer-img{
     width: 20%;
+    margin: 0 auto;
+}
+.footer-text>ul{
+    margin: 0;
+    
 }
 
 @media (min-width: 500px){
+
+
+    .nav-flex{
+        display: flex;
+        justify-content: center;
+        gap: 2em;
+    }
+    .signup{
+        align-self: flex-start;
+    }
+
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: block;
+    }
+
+    .conatiner{
+        max-width: 80em;
+        width: 100%;
+    }
+    .sec2-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3em;
+    }
+    .sec2-img{
+        width: 60% ;
+        order: 2;
+    }
+    .sec2-text{
+        width: 40%;
+        text-align: left;
+        order: 1;
+    }
+    .art{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(237, 23%, 32%);
+        border-top-right-radius: 6em;
+        border-bottom-left-radius: 6em;
+    }
+    .sec3-text{
+        padding: 1em 0;
+        background-color: transparent;
+        text-align: left;
+    }
+
+    .sec3-img{
+        max-width: 30em;
+    }
+
+    .free-open{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3em;
+    }
+    .sec4-img{
+        width: 60%;
+
+    }
+    .sec4-text{
+        width: 40%;
+        text-align: justify;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        gap: 10em;
+        
+    }
+    .footer-img{
+        width: 30%;
+        max-width: 10em;
+    }
+    .footer-text>ul{
+        display: flex;
+        justify-content: center;
+        gap: 10em;
+        margin: 0;
+        padding: 0;
+    }
 
 }
