@@ -1,0 +1,175 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+
+}
+
+h2,
+h3 {
+    color: hsl(208, 49%, 24%);
+    margin-top: 2em;
+}
+
+.future p ,.free-open p{
+    color:hsl(207, 13%, 34%);
+}
+.container {
+    width: 80%;
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+.hero {
+    background-color: hsl(356, 100%, 66%);
+    padding-top: 2em;
+    padding-bottom: 5em;
+    border-bottom-left-radius: 25%;
+    margin-bottom: 5em;
+    color: #fff;
+    background-image: url(images/bg-pattern-intro-mobile.svg);
+    background-position: center;
+
+}
+
+.main-text>h1 {
+    font-weight: 600;
+    font-size: 1.8em;
+    padding-bottom: 1.5em;
+}
+
+.more-info {
+    margin: 3em 0;
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+
+.more-info>* {
+    width: 8em;
+    height: 3em;
+    border-radius: 10em;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: medium;
+
+}
+
+.more-info>*:active {
+    background-color: #fff;
+    color: hsl(356, 100%, 66%);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5em;
+}
+.nav-extend{
+    border: none;
+    background-color: transparent;
+}
+
+
+.nav>button {
+    background-color: transparent;
+    border: none;
+}
+
+
+.primary-nav {
+    background-color: #fff;
+    position: fixed;
+    width: 75%;
+    min-height: 50vh;
+    left: 2em;
+    right: 10em;
+    color: hsl(208, 49%, 24%);
+    padding: 5em 0;
+    margin: 2em;
+}
+ul{
+    margin: 2em 0;
+}
+
+li {
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+.products-extend, .company-extend, .connect-extend{
+    background-color: hsl(240, 2%, 79%);
+    color: hsl(207, 13%, 34%);
+    padding: 2em 3em;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+.signup {
+    border: none;
+    background: rgb(255, 122, 133);
+    background: linear-gradient(90deg, rgba(255, 122, 133, 1) 30%, rgba(255, 82, 93, 1) 100%);
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    width: 10em;
+    height: 3em;
+    border-radius: 5em;
+}
+
+.art>img{
+    margin-bottom: -17em;
+    background-image: url(images/bg-pattern-circles.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sec3-text{
+    background-color: hsl(237, 23%, 32%);
+    padding-top: 15em;
+    padding-bottom: 6em;
+    border-top-right-radius: 6em;
+    border-bottom-left-radius: 6em;
+}
+.sec3-text> h2{
+    padding-bottom: 1em;
+}
+.sec3-text>*{
+    color: #fff;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: large;
+}
+
+.art {
+    margin-top: 2em;
+}
+
+
+.footer {
+    background-color: hsl(240, 10%, 16%);
+    padding-top: 2em;
+    border-top-right-radius: 10em;
+    color: #fff;
+    margin-top: 2em;
+}
+
+.footer>img {
+    width: 20%;
+}
