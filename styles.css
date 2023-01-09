@@ -173,3 +173,7 @@ h3 {
 .footer>img {
     width: 20%;
 }
+
+@media (min-width: 500px){
+
+}
